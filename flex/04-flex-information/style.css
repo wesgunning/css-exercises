@@ -7,9 +7,57 @@ img {
   height: 100px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+.plants {
+  display: flex;
+  justify-content: center;
+}
+
+.plants img {
+  margin-bottom: 8px;
+}
+
+.plants div {
+  width: 200px;
+}
+
+.one,
+.two,
+.three {
+  margin-right: 52px;
+}
+.plants .text {
+  text-align: center;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* do not edit this footer */

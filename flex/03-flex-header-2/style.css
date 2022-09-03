@@ -9,6 +9,8 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -23,18 +25,42 @@ body {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
 }
 
+.left-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.links {
+  display: flex;
+  padding-left: 10px;
+}
+
+
+.links li {
+  margin-right: 10px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-right: 15px;
 }
 
 a {
